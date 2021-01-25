@@ -79,6 +79,16 @@ Configuration
   formulario de las compañías y subir el certificado en formato .pfx y
   escribir la contraseña de acceso al certificado.
 * Actualizar los impuestos usando su clave Facturae
+* Si desea utilizar la integración con Odoo para poder enviar la factura directamente debe ir a FACe y registrar el certificado.
+  
+  Pasos a seguir para registra su certificado en FACe:
+  1. Acceder a https://face.gob.es/
+  2. Acceder a "Integradores > Gestión de certificados"
+  3. Acceder con un certificado
+  4. Registrar el certificado utilizando la clave pública (PEM)
+  
+  Cuando el certificado caduque se deberá de volver a acceder para actualizar el certificado. Para realizarlo se necesitará la parte pública del certificado.
+
 
 Usage
 =====
